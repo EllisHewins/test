@@ -1,7 +1,12 @@
 body {
    background: #fff;
 }
-.full-width.first-bit {
-	background: #fffee6 url('images/first-bit-bg.jpg') no-repeat top center;
+
+.main-logo {
+	padding-top:90px;
+	padding-left: 50px;
+}
+.full-width.first-block {
+	background: #fffee6 url('../images/first-bit-bg.jpg') no-repeat top center;
 	height: 600px;
 }
