@@ -1,12 +1,59 @@
 body {
    background: #fff;
+   color:#000;
 }
 
+.smart-links {font-family:"NightClubs";src:url("Night_Club_70s_Regular.eot?") format("eot"),url("Night_Club_70s_Regular.woff") format("woff"),url("Night_Club_70s_Regular.ttf") format("truetype"),url("Night_Club_70s_Regular.svg#NightClubs") format("svg");font-weight:normal;font-style:normal;}
+
 .main-logo {
-	padding-top:90px;
 	padding-left: 50px;
+	margin-bottom:24px;
+	max-width:100%;
+	max-height:343px;
 }
 .full-width.first-block {
 	background: #fffee6 url('../images/first-bit-bg.jpg') no-repeat top center;
-	height: 600px;
+	padding-top:90px;
+}
+
+.first-block li {
+	font-family: 'FuturaPT Heavy', sans-serif;
+	font-size: 18px;
+	border: 3px solid black;
+    list-style: outside none none;
+    text-align: center;
+    margin-bottom: 20px;
+    padding:2px;
+}
+
+.first-block li a {
+	color:#000;
+	text-decoration: none;
+}
+
+.first-block .top-image {
+	margin-bottom: 45px;
+}
+
+.first-block .top-image img {
+	max-width: 100%;
+}
+
+.first-block .summary-text {
+	font-size: 16px;
+	font-family: 'FuturaPT Heavy','FuturaPT Book',sans-serif;
+}
+
+.smart-links {
+	padding-top: 34px;
+}
+
+.full-width.sign-up {
+	background: #fff url('../images/social-bg.png') no-repeat top center;
+	min-height: 285px; 
+	background-size: 100%;
+}
+
+.full-width.twitter {
+	background-color: #009a9b;
 }
