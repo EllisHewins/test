@@ -7,7 +7,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 	font-family:'FuturaPT Heavy', sans-serif;
 }
 
-.smart-links {font-family:"NightClubs";src:url("Night_Club_70s_Regular.eot?") format("eot"),url("Night_Club_70s_Regular.woff") format("woff"),url("Night_Club_70s_Regular.ttf") format("truetype"),url("Night_Club_70s_Regular.svg#NightClubs") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+    font-family: 'nightclubsregular';
+    src: url('nightclub-webfont.eot');
+    src: url('nightclub-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nightclub-webfont.woff2') format('woff2'),
+         url('nightclub-webfont.woff') format('woff'),
+         url('nightclub-webfont.ttf') format('truetype'),
+         url('nightclub-webfont.svg#nightclubsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .main-logo {
 	padding-left: 50px;
@@ -50,6 +61,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 
 .smart-links {
 	padding-top: 34px;
+}
+
+.smart-links img {
+	width:100%;
 }
 
 .full-width.sign-up {
@@ -116,4 +131,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 
 .facebook {
 	padding-bottom: 90px;
+}
+
+@media (max-width: 900px) {
+.nav, .top-image, .summary-text, .form {
+	text-align: center;
+	}
+}
+
 }
