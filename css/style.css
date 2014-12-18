@@ -133,7 +133,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 	padding-bottom: 90px;
 }
 
-.form h1, h3 {
+input, select {
+	border: 2px solid #fff;
+	background:transparent;
+	color: #fff;
+	font-weight: bolder;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+option {
+	color:#000;
+}
+
+.form h1, h3, h4.map {
 	font-family:'nightclubsregular',sans-serif;
 }
 
