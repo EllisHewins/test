@@ -3,6 +3,10 @@ body {
    color:#000;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
+	font-family:'FuturaPT Heavy', sans-serif;
+}
+
 .smart-links {font-family:"NightClubs";src:url("Night_Club_70s_Regular.eot?") format("eot"),url("Night_Club_70s_Regular.woff") format("woff"),url("Night_Club_70s_Regular.ttf") format("truetype"),url("Night_Club_70s_Regular.svg#NightClubs") format("svg");font-weight:normal;font-style:normal;}
 
 .main-logo {
@@ -50,10 +54,66 @@ body {
 
 .full-width.sign-up {
 	background: #fff url('../images/social-bg.png') no-repeat top center;
-	min-height: 285px; 
-	background-size: 100%;
+	background-size: auto;
+}
+
+.form {
+	height:285px;
 }
 
 .full-width.twitter {
-	background-color: #009a9b;
+	height:200px;
+	background: url('../images/twitter-bg.png') no-repeat top center;
+	margin-bottom: 50px;
+}
+
+.twitter, .twitter a {
+	color:#fff;
+}
+
+.twitter .col-md-4 {
+	padding-top:20px;
+}
+
+.twitter h2 {
+	font-size:23px;
+	font-weight:300;
+}
+
+.twitter img {
+	padding:65px;
+}
+
+.footer img {
+	width:100%;
+}
+
+.footer a {
+	color:#000;
+}
+
+.footer .col-md-3 {
+	text-align: center;
+}
+
+.footer form {
+	text-align: left;
+}
+
+.footer h4 {
+	background-color: #000;
+    border: medium solid #000;
+    border-radius: 45px;
+    color: #fff;
+    margin-left: 90px;
+    padding: 17px 17px 14px 9px;
+    width: 60px;
+}
+
+.instagram img, .facebook img {
+	width:100%;
+}
+
+.facebook {
+	padding-bottom: 90px;
 }
