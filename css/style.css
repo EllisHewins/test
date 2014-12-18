@@ -9,12 +9,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 
 @font-face {
     font-family: 'nightclubsregular';
-    src: url('nightclub-webfont.eot');
-    src: url('nightclub-webfont.eot?#iefix') format('embedded-opentype'),
-         url('nightclub-webfont.woff2') format('woff2'),
-         url('nightclub-webfont.woff') format('woff'),
-         url('nightclub-webfont.ttf') format('truetype'),
-         url('nightclub-webfont.svg#nightclubsregular') format('svg');
+    src: url('fonts/nightclub-webfont.eot');
+    src: url('fonts/nightclub-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nightclub-webfont.woff2') format('woff2'),
+         url('fonts/nightclub-webfont.woff') format('woff'),
+         url('fonts/nightclub-webfont.ttf') format('truetype'),
+         url('fonts/nightclub-webfont.svg#nightclubsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -131,6 +131,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 
 .facebook {
 	padding-bottom: 90px;
+}
+
+.form h1, h3 {
+	font-family:'nightclubsregular',sans-serif;
 }
 
 @media (max-width: 900px) {
