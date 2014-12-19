@@ -269,15 +269,15 @@ option {
 		padding-left: 35px;
 	}
 	.first-block .top-image {
-		padding-bottom: 5px!important;
+		margin-bottom: 5px!important;
 	}
 	.summary-text {
 		font-size: 12px!important;
 	}
 	.footer h4, .btn.send {
-    margin-left: 115px;
+    	margin-left: 115px;
     }
     .footer-birthday {
-    width: 47%;
+    	width: 47%;
     }
 }
