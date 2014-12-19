@@ -226,6 +226,9 @@ option {
 	.top-image img {
 		max-width: 70%!important;
 	}
+	.summary-text {
+		font-size:14px;
+	}
 	.name, .lastname, .email {
     width: 41%;
 	}
@@ -238,5 +241,8 @@ option {
 	}
 	.footer-birthday {
     width: 76.5%;
+	}
+	.footer h4, .btn.send {
+		 margin-left: 310px;
 	}
 }
