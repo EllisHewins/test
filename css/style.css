@@ -218,7 +218,6 @@ option {
 	}
 	.full-width.first-block {
 		padding-top:10px;
-		font-size:14px;
 	}
 	.main-logo {
 		max-width: 40%;
@@ -227,7 +226,7 @@ option {
 		max-width: 70%!important;
 	}
 	.summary-text {
-		font-size:14px;
+		font-size:14px!important;
 	}
 	.name, .lastname, .email {
     width: 41%;
@@ -244,5 +243,20 @@ option {
 	}
 	.footer h4, .btn.send {
 		 margin-left: 310px;
+	}
+}
+
+@media (max-width: 400px) {
+	.sign-up h1 {
+		font-size: 25px;
+	}	
+	.birthday {
+		width:41%;
+	}
+	.form input, .form select, .form label {
+		margin-bottom: 10px;
+	}
+	.full-width.twitter {
+		background-position: -730px;
 	}
 }
