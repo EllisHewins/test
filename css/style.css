@@ -192,11 +192,19 @@ option {
 	}
 	.full-width.first-block {
 		padding-top:10px;
+		font-size:14px;
 	}
 	.main-logo {
 		max-width: 40%;
 	}
 	.top-image img {
-		max-width: 90%;
+		max-width: 70%!important;
+	}
+	.name, .lastname, .email {
+    width: 41%;
+	}
+	.twitter img {
+    padding-left: 142px;
+    padding-top: 60px;
 	}
 }
