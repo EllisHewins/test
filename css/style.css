@@ -195,6 +195,14 @@ option {
 	color: #fecc00;
 }
 
+.fa-envelope-o, .fa-facebook, .fa-twitter, .fa-instagram {
+    background-color: #000;
+    border: 7px solid #000;
+    border-radius: 18px;
+    color: #fff;
+    margin-right: 2px;
+}
+
 @media (max-width: 900px) {
 	.nav, .top-image, .summary-text, .form {
 	text-align: center;
