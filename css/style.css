@@ -186,6 +186,10 @@ option {
 	font-family:'nightclubsregular',sans-serif;
 }
 
+.fa-reply, .fa-retweet, .fa-star {
+	color:#fecc00;
+}
+
 @media (max-width: 900px) {
 	.nav, .top-image, .summary-text, .form {
 	text-align: center;
