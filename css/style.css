@@ -274,5 +274,8 @@ option {
 	.summary-text {
 		font-size: 12px!important;
 	}
-	
+	.footer h4, .btn.send {
+    margin-left: 115px;
+    }
+
 }
