@@ -269,7 +269,7 @@ option {
 		padding-left: 35px;
 	}
 	.first-block .top-image {
-		padding-bottom: 5px;
+		padding-bottom: 5px!important;
 	}
 	.summary-text {
 		font-size: 12px!important;
