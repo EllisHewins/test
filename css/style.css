@@ -120,9 +120,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
     border: medium solid #000;
     border-radius: 45px;
     color: #fff;
-    margin-left: 90px;
+    margin-left: 95px;
     padding: 17px 17px 14px 9px;
     width: 60px;
+}
+
+.btn.send {
+    background-color: #000;
+    border: medium solid #000;
+    border-radius: 45px;
+    color: #fff;
+    margin-left: 90px;
+    padding: 17px 9px 14px;
+    width: 60px;
+    font-size:16px;
 }
 
 .instagram img, .facebook img {
@@ -171,7 +182,7 @@ option {
 	color:#000;
 }
 
-.form h1, h3, h4.map {
+.form h1, h3, h4.map, .send {
 	font-family:'nightclubsregular',sans-serif;
 }
 
