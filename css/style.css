@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 	padding-bottom: 90px;
 }
 
-.form input, .form select {
+.form input, .form select, .form label {
 	border: 2px solid #fff;
 	background:transparent;
 	color: #fff;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
     padding: 10px;
 }
 
-.footer-form input, .footer-form select {
+.footer-form input, .footer-form select, .footer-form label {
 	border: 2px solid #000;
 	background:transparent;
 	color: #000;
@@ -168,6 +168,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 
 .birthday {
 	width:20%;
+}
+
+.form input[value="SEND"] {
+	width:95%;
 }
 
 .footer-birthday {
@@ -203,6 +207,11 @@ option {
     margin-right: 2px;
 }
 
+.fa-facebook {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
 @media (max-width: 900px) {
 	.nav, .top-image, .summary-text, .form {
 	text-align: center;
@@ -223,5 +232,11 @@ option {
 	.twitter img {
     padding-left: 142px;
     padding-top: 60px;
+	}
+	.form input[value="SEND"] {
+    width: 83%;
+	}
+	.footer-birthday {
+    width: 76.5%;
 	}
 }
